@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM UI</title>
+</head>
+
+<body>
+    <div class="abgHeadingConatiner">
+        <p>Online Easy ABG Interpretation</p>
+    </div>
+    <div class="mainFormConatiner" id="abgFormBigContainer">
+
+
+
+        <div class="formContainer" id="abgFormContainer">
+
+            <div class="labelAndInput" id="labelInput">
+                <div class="abgLabel" id="abgLabel">
+                    <label id="phAbgLabel">pH</label>
+                </div>
+                <div class="abgInput" id="abgInput">
+                    <input type="text" placeholder="enter pH" id="phAbgId" required>
+                </div>
+            </div>
+
+
+            <div class="labelAndInput" id="labelInput">
+                <div class="abgLabel" id="abgLabel">
+                    <label id="pco2AbgLabel">pCO2 (mmHg)</label>
+                </div>
+                <div class="abgInput" id="abgInput">
+                    <input type="text" placeholder="enter pCO2" id="pco2AbgId" required>
+                </div>
+            </div>
+
+        </div>
+        <div class="abgSubmitBtnContainer" id="abgSubmitContainer">
+            <button id="u-abg-btn" type="submit">Submit</button>
+        </div>
+        <div class="ABG-inetrpretation">
+            <div id="primaryINP">
+
+            </div>
+
+            <div id="basicIN">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
