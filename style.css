@@ -141,6 +141,22 @@ flex-direction: column;
 #abgSubmitContainer button[type="submit"]:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+#abgFooter{
+            background-color: rgba(13, 254, 77, 0.349);
+            padding: 10px 10px 10px 20px;
+            margin-bottom: 0px;
+            display: flexbox;
+            width: fit-content;
+            border-radius: 5px;
+        }
+        #abgFooter p{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+
 <!-- no zoom by css  -->
 :root {
     touch-action: pan-x pan-y;
