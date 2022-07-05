@@ -141,3 +141,8 @@ flex-direction: column;
 #abgSubmitContainer button[type="submit"]:active {
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+<!-- no zoom by css  -->
+:root {
+    touch-action: pan-x pan-y;
+    height: 100% 
+  }
