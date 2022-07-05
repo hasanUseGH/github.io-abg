@@ -147,12 +147,17 @@ flex-direction: column;
             border-radius: 5px;
             position: fixed;
             bottom: 0;
-            width: 100%;
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            left: 40%;
         }
 
         #abgFooter p {
             padding-left: 10px;
             padding-right: 10px;
+            font-size: x-small;
+            text-align: center;
         }
 
 
